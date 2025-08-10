@@ -3,7 +3,7 @@
 ## 📌 Overview
 This project predicts **which customers are most likely to become credit delinquent** using multiple machine learning models.  
 By analyzing financial and behavioral data such as income, credit utilization, and payment history, the models estimate a **risk score** for each customer.  
-We compare four approaches — **Logistic Regression**, **Random Forest**, **XGBoost**, and **LightGBM** — to find the most accurate and fair predictor.
+We compare **five different approaches** — **Logistic Regression**, **Decision Tree**, **Random Forest**, **XGBoost**, and **LightGBM** — to identify the most accurate and fair predictor.
 
 ---
 
@@ -25,19 +25,25 @@ We compare four approaches — **Logistic Regression**, **Random Forest**, **XGB
 - **Weaknesses:** Cannot capture complex patterns without feature engineering
 - **Best Use Case:** Simple, explainable credit scoring
 
-### 2️⃣ Random Forest
+### 2️⃣ Decision Tree
+- **Type:** Single decision tree classifier
+- **Strengths:** Easy to visualize and interpret, captures non-linear relationships
+- **Weaknesses:** Can overfit on small datasets
+- **Best Use Case:** Clear decision-making rules
+
+### 3️⃣ Random Forest
 - **Type:** Ensemble of decision trees (bagging)
 - **Strengths:** Captures non-linearities, robust to noise
 - **Weaknesses:** Less interpretable
 - **Best Use Case:** General-purpose prediction
 
-### 3️⃣ XGBoost
+### 4️⃣ XGBoost
 - **Type:** Gradient boosting
 - **Strengths:** High accuracy, handles complex patterns
 - **Weaknesses:** Requires tuning, slower on very large data
 - **Best Use Case:** Competitive modeling where accuracy is top priority
 
-### 4️⃣ LightGBM
+### 5️⃣ LightGBM
 - **Type:** Gradient boosting (leaf-wise growth)
 - **Strengths:** Very fast on large datasets, native categorical support
 - **Weaknesses:** Can overfit small datasets
