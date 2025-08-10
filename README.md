@@ -75,4 +75,10 @@ We compare **five different approaches** — **Logistic Regression**, **Decision
 ## ⚖ Ethical Considerations
 - Avoid using features that could cause discrimination  
 - Explain predictions and allow human review  
-- Protect customer privacy and data security  
+- Protect customer privacy and data security
+ 
+---
+
+## 👤 Author
+[Maddu Manaswi Priya]  
+[August 2025] 
