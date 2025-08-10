@@ -80,5 +80,5 @@ We compare **five different approaches** — **Logistic Regression**, **Decision
 ---
 
 ## 👤 Author
-[Maddu Manaswi Priya]  
-[August 2025] 
+**Maddu Manaswi Priya**  
+**August 2025**
