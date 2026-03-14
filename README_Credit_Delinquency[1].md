@@ -14,7 +14,7 @@ Credit delinquency is a major risk for financial institutions. Identifying high-
 
 - **Type:** Financial borrower dataset with credit history and repayment behaviour
 - **Features:** Credit score, loan amount, repayment history, employment status, income, debt-to-income ratio, number of missed payments
-- **Target:** Binary — delinquent (1) / not delinquent (0)
+- **Target:** Binary - delinquent (1) / not delinquent (0)
 
 ---
 
